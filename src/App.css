@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #0C0D08;
+}
+.Navbar{
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #3b3b3b;
+  position: relative;
+  background-color: #0C0D08;
+}
+.projectCard{
+  width: 26%;
+  height: 420px;
+  background-color: #131313;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+
+.socials{
+  color: #8A8B8F;
+}
+.socials .social{
+  background-color: #161513;
+}
+.info{
+  background-color: #131313;
+}
+.about{
+  background-color: #131313;
+}
+.projectsdone{
+  position: absolute;
+  top: 1400px;
+  left: 32%;
+  background-color: #c5c5c5;
+}
+.skills{
+  background-color: #0C0D08;
+}
+.experince{
+  background-color: #0C0D08;
+}
+.address svg{
+  position: absolute;
+  width: 110px;
+}
+.mail svg{
+  position: absolute;
+  width: 110px;
+}
+.number svg{
+  position: absolute;
+  width: 110px;
+}
+
+.bookProject .book{
+  background-color: #1A1A1A;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+.serviceCards .card{
+  background-color: #1A1A1A;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  width: 450px;
+}
+.serviceCards .card:hover{
+  background-color: #1A1A1A;
+  box-shadow: rgb(255, 2, 2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  transition: all 0.5s;
+}
+.expre{
+  background-color: #111827;
+  box-shadow: rgba(90, 78, 255, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.skillCard{
+  width: 500px;
+}
+.experinceDetails{
+  position: absolute;
+}
+footer{
+  background-color: #131313;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(235, 0, 0);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
