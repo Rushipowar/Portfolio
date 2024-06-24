@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import DevelopmentBanner from "./DevelopmentBanner";
 
 function Navbar() {
   return (
@@ -33,6 +34,8 @@ function Navbar() {
             Lets Talk
           </Link>
         </section>
+
+        <DevelopmentBanner />
       </div>
     </div>
   );
