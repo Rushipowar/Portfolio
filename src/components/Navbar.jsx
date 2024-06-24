@@ -5,7 +5,7 @@ import DevelopmentBanner from "./DevelopmentBanner";
 function Navbar() {
   return (
     <div className="flex justify-center">
-      <div className="Navbar flex justify-between items-center bg-white px-8">
+      <div className="Navbar flex justify-between items-center px-8">
         <section>
           <p className="text-red-600">Logo</p>
           <img src="" alt="" />
